@@ -29,7 +29,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
  [_COLDH] = LAYOUT(                                                                                                                                                       
   KC_ESC,   KC_1,   KC_2,    KC_3,    KC_4,    KC_5,    KC_GRV,                                            KC_HOME, KC_6,     KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS,
-  KC_TAB,   KC_Q,   KC_W,    KC_F,    KC_P,    KC_B,    KC_NUBS,                                           KC_END,  KC_J,     KC_L,    KC_U,    KC_Y,    KC_SCLN, KC_EQL, 
+  KC_TAB,   KC_Q,   KC_W,    KC_F,    KC_P,    KC_B,    KC_NUHS,                                           KC_END,  KC_J,     KC_L,    KC_U,    KC_Y,    KC_SCLN, KC_EQL, 
   KC_LSFT,  KC_A,   KC_R,    KC_S,    KC_T,    KC_G,    KC_LBRC,                                           KC_PGUP, KC_M,     KC_N,    KC_E,    KC_I,    KC_O,    KC_QUOT,
   KC_LCTRL, KC_Z,   KC_X,    KC_C,    KC_D,    KC_V,    KC_RBRC, KC_ENT,                        KC_F5,     KC_PGDN, KC_K,     KC_H,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
                              KC_APP,  KC_LGUI, KC_LALT, KC_SPC,  MO(4),   BackNUM,    TT(3),    MO(4),     KC_BSPC, KC_SFTENT,KC_DEL,  KC_RGUI
@@ -74,7 +74,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  
  [_WASD] = LAYOUT(                                                                                                                                                        
   KC_ESC,   KC_1,   KC_2,    KC_3,    KC_4,    KC_5,    KC_GRV,                                            KC_HOME, KC_6,     KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS,
-  KC_TAB,   KC_Q,   KC_W,    KC_E,    KC_R,    KC_T,    KC_NUBS,                                           KC_END,  KC_Y,     KC_U,    KC_I,    KC_O,    KC_P,    KC_EQL, 
+  KC_TAB,   KC_Q,   KC_W,    KC_E,    KC_R,    KC_T,    KC_NUHS,                                           KC_END,  KC_Y,     KC_U,    KC_I,    KC_O,    KC_P,    KC_EQL, 
   KC_LSFT,  KC_A,   KC_S,    KC_D,    KC_F,    KC_G,    KC_LBRC,                                           KC_PGUP, KC_H,     KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
   KC_LCTRL, KC_Z,   KC_X,    KC_C,    KC_V,    KC_B,    KC_RBRC, KC_F13,                        KC_F5,     KC_PGDN, KC_N,     KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
                              KC_APP,  KC_LGUI, KC_LALT, KC_SPC,  MO(4),   BackNUM,   TT(3),    MO(4),     KC_BSPC, KC_SFTENT,KC_DEL,  KC_RGUI
